@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logobg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logobg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Attandance"
+        tools:targetApi="31">
+
+        <!--below is the code for default activity which is Main Activity-->
+        <activity android:name="activity.MainActivity"
+            android:exported="true">
+
+            <!--Inside this activity you should be having below code for
+                intent filter which will check the default activity-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name="activity.LoginActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.MenuActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.AddFacultyActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.AddStudentActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.ViewFacultyActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.ViewStudentActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.TestActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.ViewStudentByBranchYear"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.AddAttandanceSessionActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.AddAttendanceActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.ViewAttendanceByFacultyActivity"
+            android:label="@string/app_name"> </activity>
+        <activity android:name="activity.ViewAttendancePerStudentActivity"
+            android:label="@string/app_name"> </activity>
+
+
+
+
+    </application>
+
+</manifest>

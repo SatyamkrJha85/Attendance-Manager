@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/labelAttendance"
+        android:layout_width="fill_parent"
+    android:textColor="@color/black"
+        android:layout_height="fill_parent"
+        android:padding="10dip"
+    android:background="@drawable/attbg2"
+        android:textSize="16dip"
+        android:textStyle="bold" >
+</TextView>
